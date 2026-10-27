@@ -1,9 +1,9 @@
 Section: devel
 Priority: optional
-Maintainer: Dario Griffo <dariogriffo@gmail.com>
+Maintainer: Fengnan Gao <gao.fengnan@gmail.com>
 Homepage: https://bunlang.org/
 Package: bun
-Version: BUN_VERSION-BUILD_VERSION~griffo
+Version: BUN_VERSION-BUILD_VERSION~gaofn
 Architecture: SUPPORTED_ARCHITECTURES
 Depends: bun-one
 Description: Bun is an all-in-one toolkit for JavaScript and TypeScript apps. This is a meta package.

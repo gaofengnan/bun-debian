@@ -121,8 +121,8 @@ build_architecture() {
 
     # One set of packages for every suite: upstream's binaries need GLIBC_2.17
     # at most, so only the old ~<suite> version suffix ever differed. The fixed
-    # ~griffo keeps it below the distro's own build of the same version.
-    FULL_VERSION="$BUN_VERSION-${BUILD_VERSION}~griffo_${build_arch}"
+    # ~gaofn keeps it below the distro's own build of the same version.
+    FULL_VERSION="$BUN_VERSION-${BUILD_VERSION}~gaofn_${build_arch}"
     echo "  Building $FULL_VERSION"
 
     build_package bun-one one_Dockerfile "$build_arch" "$FULL_VERSION" || return 1
